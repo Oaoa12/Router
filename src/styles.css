@@ -1,0 +1,164 @@
+
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-radius: 1.25rem;
+    background-color: #2d2d2d;
+    padding: 1.25rem;
+    width: 100%;
+}
+
+.trash-button {
+    color: #9ca3af;
+    transition: color 0.3s ease-in-out;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.trash-button:hover {
+    color: #f43f5e;
+}
+
+.checklist.container body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f; 
+    color: white;
+}
+
+.checklist-container {
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f; 
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.checklist-container .todo-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.todo-container {
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.todo-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.create-todo-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-radius: 1.25rem;
+    background-color: #2d2d2d;
+    padding: 0.75rem 1.25rem;
+    width: 100%;
+    border: 2px solid;
+    margin-top: 5rem;
+}
+
+.create-todo-field input {
+    background: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    border-radius: 1.25rem;
+    background-color: #2d2d2d;
+    padding: 1.25rem;
+    width: 100%;
+}
+.check {
+    border: 2px solid #d1006f;
+    border-radius: 0.5rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-right: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.check.completed {
+    background-color: #d1006f;
+}
+
+.check-icon {
+    color: #1a1a1a;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.trash-button {
+    color: #9ca3af;
+    transition: color 0.3s ease-in-out;
+}
+
+.trash-button:hover {
+    color: #f43f5e;
+}
+
+.todo-item span {
+    flex-grow: 1;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-radius: 1.25rem;
+    background-color: #2d2d2d;
+    padding: 1.25rem;
+    width: 100%;
+}
+
+.todo-item button {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.trash-button {
+    color: #9ca3af;                      
+    transition: color 0.3s ease-in-out;   
+}
+
+.trash-button:hover {
+    color: #f43f5e;                      
+}
